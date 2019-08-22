@@ -23,10 +23,10 @@ class Song
   
   def self.artist_count
     artist_count = {}
-    @@artists.each do |artist, num|
+    @@artists.each do |artist|
       i += 1 if include?(artist) 
     else 
-      
+    artist_count{1, artist}
   end 
   
   def self.genres
@@ -35,3 +35,4 @@ class Song
   
 end 
 
+# if the artists_count hash has a key of this artist, then we increment and if it doesn't 
