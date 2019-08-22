@@ -51,4 +51,4 @@ end
   
 end 
 
-# if the artists_count hash has a key of this artist, then we increment and if it doesn't 
+# if the artists_count hash has a key of this artist, then we increment and if it doesn't we create place a artist_hash in its place with an increment of 1 representing the new artist (same with genre)
