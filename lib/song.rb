@@ -16,8 +16,8 @@ class Song
     @@count
   end 
   
-  def self.genre 
-    @genre 
+  def self.artist
+    @artist
   end 
   
   
