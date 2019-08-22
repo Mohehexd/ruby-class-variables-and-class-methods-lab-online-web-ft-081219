@@ -30,7 +30,7 @@ class Song
      artist_hash[artist] = 1 
     end 
   end 
-  return artist_hash
+  artist_hash
 end
   
   def self.genres
