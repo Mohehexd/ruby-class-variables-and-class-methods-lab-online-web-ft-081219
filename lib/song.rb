@@ -6,7 +6,7 @@ class Song
   
   def initialize (name, artist, genre)
     @name = name 
-    @artist["Jay-Z", "Jay-Z", "Brittany Spears"] = artist
+    @@artist["Jay-Z", "Jay-Z", "Brittany Spears"] = artist
     @genre = genre 
     @@count +=1 
   end 
